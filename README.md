@@ -18,7 +18,7 @@ https://localhost:3000/api/[ID]
 # Models
 
 post / put:
-["task": "taskbeschreibung", "done":true]
+{"task": "taskbeschreibung", "done":true}
 
 response:
-["id": "34", "task": "taskbeschreibung", "done":true]
+{"id": "34", "task": "taskbeschreibung", "done":true}
