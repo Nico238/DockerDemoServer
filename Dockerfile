@@ -1,6 +1,6 @@
 # baseimage to build from
 # all images: https://hub.docker.com/
-FROM node:latest
+FROM node:alpine
 
 # set working directory for the following commands
 WORKDIR /usr/src/demoserver
@@ -19,7 +19,7 @@ EXPOSE 3000
 CMD ["node", "server.js"]
 
 # build image from dockerfile: 
-# docker build .
+# docker build -f [Dockerfile] .
 
 # create and run container from image:
 # docker run --publish [HOSTPORT]:[IMAGEPORT] --detach --name [CONTAINERNAME] [IMAGENAME / IMAGE_ID]
