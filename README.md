@@ -18,7 +18,11 @@ https://localhost:3000/api/[ID]
 # Models
 
 post / put:
+```json
 {"task": "taskbeschreibung", "done":true}
+```
 
 response:
+```json
 {"id": "34", "task": "taskbeschreibung", "done":true}
+```
