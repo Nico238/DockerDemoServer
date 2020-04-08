@@ -19,10 +19,17 @@ https://localhost:3000/api/[ID]
 
 post / put:
 ```json
-{"task": "taskbeschreibung", "done":true}
+{
+  "task": "taskbeschreibung",
+  "done":true
+}
 ```
 
 response:
 ```json
-{"id": "34", "task": "taskbeschreibung", "done":true}
+{
+  "id": "34",
+  "task": "taskbeschreibung",
+  "done":true
+}
 ```
