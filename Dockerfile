@@ -16,4 +16,4 @@ RUN npm install
 COPY . .
 
 # start server
-CMD nodemon server.js
+CMD node server.js
