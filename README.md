@@ -21,7 +21,7 @@ post / put:
 ```json
 {
   "task": "taskbeschreibung",
-  "done":true
+  "done": true
 }
 ```
 
@@ -30,6 +30,6 @@ response:
 {
   "id": "34",
   "task": "taskbeschreibung",
-  "done":true
+  "done": true
 }
 ```
